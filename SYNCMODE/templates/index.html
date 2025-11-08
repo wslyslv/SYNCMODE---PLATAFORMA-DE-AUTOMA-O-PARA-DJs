@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="{{ url_for('static', filename='')}}">-->
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>SYNCMODE</title>
+</head>
+<body>
+    <header>
+        <h1>SYNCMODE</h1>
+        <H2>Painel de automação para DJs</H2>
+    </header>
+    
+    <main>
+        <div class="card">
+            <h2>Organizador de Faixas</h2>
+            <p>Organize e renomeie suas faixas automaticamente.</p>
+            <button>Executar</button>
+        </div>
+
+        <div class="card">
+            <h2>Analisador de Faixas</h2>
+            <p>Veja BPM, KEY e duração das suas músicas.</p>
+            <button>Executar</button>
+        </div>
+
+        <div class="card">
+            <h2>Gerador de Playlists</h2>
+            <p>Monte playlists automáticas por BPM e gênero.</p>
+            <button>Executar</button>
+        </div>
+    </main>
+
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+</html>
